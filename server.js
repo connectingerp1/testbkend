@@ -34,11 +34,11 @@ mongoose.connect("mongodb+srv://connectingerp1:connecting@connectingcluster.6ifh
 });
 
 // Serve static files from the build directory
-app.use(express.static(path.resolve(__dirname, "build")));
+// app.use(express.static(path.resolve(__dirname, "build")));
 
 // Function to serve index.html with dynamic placeholders replaced
 const servePageWithPlaceholders = (res, title, description) => {
-  const filePath = path.resolve(__dirname, "build", "index.html");
+  // const filePath = path.resolve(__dirname, "build", "index.html");
 
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
