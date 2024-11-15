@@ -11,6 +11,7 @@ const port = 5000;
 app.use(cors({
   origin: [
     'https://www.connectingdotserp.com',
+    'https://testingweb-frontend.onrender.com',
     'http://localhost:5000',
     'http://localhost:3999',
     'https://qhvpqmhj-3999.inc1.devtunnels.ms',
